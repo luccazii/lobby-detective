@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-game-fetcher-service",
+  "version": "1.0.0",
+  "description": "fetch game info",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lucca Zimmermann",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "gamedig": "^4.0.2"
+  }
+}

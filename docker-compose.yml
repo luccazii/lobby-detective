@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+    redis:
+        image: redis:6.2-alpine
+        container_name: 'redis-server-caching'
+        ports:
+            - '6379:6379'
+
