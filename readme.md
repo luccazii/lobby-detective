@@ -23,6 +23,7 @@ The main goal of this project is to make simple to players found a community mul
 - [x] Data Caching (Redis)
 - [x] Database Structure (Migrations/Seeders)
 - [x] Integration with other services `in development, a simple integration is done.`
+- [ ] Unit Tests 
 - [ ] Laravel Queueable Jobs
 - [ ] Queueable Integrations with other services
 - [ ] gRCP integration
@@ -48,6 +49,8 @@ The main goal of this project is to make simple to players found a community mul
 ### Databases and other technologies
 - [x] MySQL
 - [x] Redis
+- [ ] Live Project
+- [ ] CI/CD Integration
 - [ ] Docker with docker-compose
 - [ ] Vercel frontend hosting
 - [ ] AWS backend hosting
