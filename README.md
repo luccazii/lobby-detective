@@ -57,5 +57,15 @@ The main goal of this project is to make simple for players found a community mu
 - [ ] AWS Elastic Load Balancing
 - [ ] AWS Lambda Functions for laravel queues
 
+### 🤹🏽 Supported Games
+- [x] CS:GO Counter-Strike: Global Offensive `in development, supported only on backend`
+- [ ] Counter-Strike Source
+- [ ] Counter-Strike 1.6
+- [ ] Minecraft
+- [ ] minecraftp/minecraftbe Minecraft: Bedrock Edition
+- [ ] SAMP San Andreas Multiplayer (GTA:SA)
+- [ ] MTA Multi Theft Auto (GTA:SA)
+- [ ] FiveM - Grand Theft Auto V - FiveM
+
 # and much more to come...
 Lucca C. Zimmermann - [Linkedin](https://exemplo.com/)
