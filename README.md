@@ -4,7 +4,7 @@
 
 ## 🙌🏼 Motivations and Goals
 
-The main goal of this project is to make simple to players found a community multiplayer game server, while the main motivion is to show my `Lucca Zimmermann` personal abilities with different technologies as listed below.
+The main goal of this project is to make simple for players found a community multiplayer game server, while the main motivion is to show my `Lucca Zimmermann` personal abilities with different technologies as listed below.
 
 ## ☂️️ Features
 
