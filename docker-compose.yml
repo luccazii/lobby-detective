@@ -7,10 +7,10 @@ services:
         container_name: ondemand-mysql
         restart: unless-stopped
         environment:
-            MYSQL_DATABASE: ${DB_DATABASE}
-            MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
-            MYSQL_PASSWORD: ${DB_PASSWORD}
-            MYSQL_USER: ${DB_USERNAME}
+            MYSQL_DATABASE: ondemandDev
+            MYSQL_ROOT_PASSWORD: ondemandDev
+            MYSQL_PASSWORD: 123secret
+            MYSQL_USER: ondemandDev
             SERVICE_NAME: mysql
         ports:
             - "3666:3306"
