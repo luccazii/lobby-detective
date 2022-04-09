@@ -21,5 +21,3 @@ Route::get('/token', function (Request $request) {
     return csrf_token();
 });
 
-Route::get('/stripe', [\App\Http\Controllers\PaymentController::class, 'index']);
-

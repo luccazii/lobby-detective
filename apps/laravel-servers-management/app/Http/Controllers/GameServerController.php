@@ -3,11 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\StoreGameServerRequest;
-use App\Models\CloudInstance;
 use App\Models\GameServer;
-use App\Models\GameType;
-use App\Models\User;
-use GameFetcherService;
+use App\Services\GameServerInfoService;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
@@ -28,9 +25,12 @@ class GameServerController extends Controller
 
     public function getGameServerInfo(GameServer $gameServer)
     {
-        return Cache::remember("gameServer-$gameServer->id", '60', fn () =>
-            GameFetcherService::fetchGameServerInfo($gameServer)
-        );
+        return GameServerInfoService::getGameServerInfo($gameServer);
+    }
+
+    public function getGameServersList(): array
+    {
+        return GameServerInfoService::getCachedGameServerList();
     }
 
     public function store(StoreGameServerRequest $request)

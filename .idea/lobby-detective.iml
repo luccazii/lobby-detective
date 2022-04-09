@@ -6,6 +6,7 @@
       <excludeFolder url="file://$MODULE_DIR$/.tmp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
       <excludeFolder url="file://$MODULE_DIR$/apps/laravel-servers-management/vendor" />
+      <excludeFolder url="file://$MODULE_DIR$/apps/laravel-servers-management/storage" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -25,4 +25,9 @@ class GameServer extends Model
     {
         return $this->belongsTo(GameType::class);
     }
+
+    public function getFullIp(): string
+    {
+        return $this->ip . ':' . $this->port;
+    }
 }

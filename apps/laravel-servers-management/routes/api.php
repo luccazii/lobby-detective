@@ -1,6 +1,5 @@
 <?php
 
-use App\Http\Controllers\CloudInstanceController;
 use App\Http\Controllers\GameServerController;
 use App\Http\Controllers\GameTypeController;
 use Illuminate\Http\Request;
@@ -18,14 +17,16 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::prefix('/v1')->group(function() {
-//    Route::middleware('auth:api')->get('/user', function (Request $request) {
-//        return $request->user();
-//    });
-
-    Route::resource('/game-types', GameTypeController::class);
 
     Route::resource('/game-servers', GameServerController::class);
 
-    Route::get('/game-servers/info/{id}', GameServerController::class, 'getGameServerInfo');
+    Route::resource('/game-types', GameTypeController::class);
+
+    Route::prefix('/game-servers')->group(function() {
+        Route::resource('/', GameServerController::class);
+        Route::get('/fetch/list', [GameServerController::class, 'getGameServersList']);
+        Route::get('/fetch/{game_server}', [GameServerController::class, 'getGameServerInfo']);
+    });
+
 });
 
