@@ -57,7 +57,7 @@ The main goal of this project is to make simple for players found a community mu
 - [ ] AWS Elastic Load Balancing
 - [ ] AWS Lambda Functions for laravel queues
 
-### 🤹🏽 Supported Games
+## 🤹🏽 Supported Games
 - [x] CS:GO Counter-Strike: Global Offensive `in development, supported only on backend`
 - [ ] Counter-Strike Source
 - [ ] Counter-Strike 1.6
