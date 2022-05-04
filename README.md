@@ -68,4 +68,4 @@ The main goal of this project is to make simple for players found a community mu
 - [ ] FiveM - Grand Theft Auto V - FiveM
 
 # and much more to come...
-Lucca C. Zimmermann - [Linkedin](https://exemplo.com/)
+Lucca C. Zimmermann - [Linkedin](https://www.linkedin.com/in/lucca-zimmermann/)
