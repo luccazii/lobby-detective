@@ -35,7 +35,7 @@ The main goal of this project is to make simple for players found a community mu
 - [ ] gRCP
 - [ ] RabbitMQ
 
-### Node.js as a micro-service for websockets `not started yet`
+### Node.js as a micro-service for websockets `in development 🚧`
 - [ ] socket.io backend
 
 ### React / Next.js as frontend `not started yet`
