@@ -12,7 +12,7 @@ const server = http.createServer(app);
 const io = new Server(server);
 
 io.on('connection', (socket) => {
-    socket.on("todo:create", emitGameServerUpdate); //todo keep from here
+    socket.on("todo:create", emitGameServerUpdate); //todo keep from here. docs: https://socket.io/get-started/basic-crud-application/#event-handler
     // app.use('/', getRouter(socket));
 });
 
